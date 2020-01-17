@@ -1,2 +1,20 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+
+
+/** Footer **/
+.footer {
+      -webkit-font-smoothing: antialiased;
+  background-color: #818054;
+  .nav-link {
+    font-weight: normal;
+    color: #f9fafa;
+    font-family: "FrutigerLTW02-45Light";
+    font-size: 16px;
+  };
+
+  .nav-link:hover {
+    font-weight: bold;
+  }
+};
+
